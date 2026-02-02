@@ -12,6 +12,7 @@ import pageObjectRepository.PageObjects;
 import testData.TestDataProvider;
 
 public class LoginLogoutEndToEnd_TestCases extends PageObjects {
+	//Make some changes by sohel
 
 //	demonstrates dataProvider implementation from different class. Alternatively data can be taken from properties file.
 	@Test(priority = 0, dataProvider="active-user-credentials", dataProviderClass = TestDataProvider.class)
